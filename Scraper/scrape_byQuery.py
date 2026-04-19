@@ -39,7 +39,7 @@ from playwright.sync_api import (
 
 MAX_PAGES_PER_QUERY : int   = 75           # 3 pages x ~20 jobs x 15 queries = ~900 jobs
 HEADLESS            : bool  = True        # Set False to watch the browser
-OUTPUT_DIR          : str   = r"C:/Users/youss/OneDrive/Desktop/Kolya/Big Data/WUZZUF-Market-Analysis/Data/By_Query"
+OUTPUT_DIR          : str   = r"/Data/Raw/By_Query"
 REQUEST_DELAY       : tuple = (2.0, 3.5)
 LOG_LEVEL           : str   = "DEBUG"      # INFO = normal | DEBUG = verbose
 
